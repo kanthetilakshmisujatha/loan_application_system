@@ -1,0 +1,40 @@
+.result-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h2 {
+  text-align: center;
+  color: #2e3a59;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.result-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.result-container strong {
+  color: #2e3a59;
+}
+
+.result-container p span {
+  font-weight: normal;
+  color: #555;
+}
+
+.result-container .eligible {
+  color: #4caf50; /* Green for eligible */
+  font-weight: bold;
+}
+
+.result-container .not-eligible {
+  color: #f44336; /* Red for not eligible */
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+/* Example styles for Admin Dashboard */
+.admin-dashboard {
+  margin: 20px;
+  padding: 20px;
+}
+
+.admin-dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-dashboard th, .admin-dashboard td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.admin-dashboard th {
+  background-color: #f2f2f2;
+}
+
+.admin-dashboard tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-dashboard td {
+  font-size: 14px;
+}
